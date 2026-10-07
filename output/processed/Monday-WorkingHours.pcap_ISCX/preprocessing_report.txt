@@ -1,0 +1,14 @@
+Dataset: Monday-WorkingHours.pcap_ISCX
+Original Samples: 529918
+Original Features: 78
+Duplicates Removed: 26935
+Missing Values: 64
+Infinite Values: 810
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Destination Port', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Fwd Packet Length Std', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Std', 'Flow IAT Max', 'Flow IAT Min']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Monday-WorkingHours.pcap_ISCX

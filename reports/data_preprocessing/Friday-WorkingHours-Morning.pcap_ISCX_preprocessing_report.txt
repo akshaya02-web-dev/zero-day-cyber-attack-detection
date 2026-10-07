@@ -1,0 +1,17 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Original Rows: 191033
+Original Columns: 79
+Duplicate Rows Removed: 6888
+Missing Values Handled: 28
+Infinite Values Handled: 216
+Final Rows: 184145
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+Label Distribution:
+  BENIGN: 182192
+  Bot: 1953
+==============================================================

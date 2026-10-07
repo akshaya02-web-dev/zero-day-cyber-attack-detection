@@ -1,0 +1,12 @@
+=== Random Forest — TEST ===
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       1.00      1.00      1.00     24324
+  Web Attack � Brute Force       0.77      0.88      0.82       221
+Web Attack � Sql Injection       0.00      0.00      0.00         3
+          Web Attack � XSS       0.62      0.44      0.51        98
+
+                  accuracy                           1.00     24646
+                 macro avg       0.60      0.58      0.58     24646
+              weighted avg       1.00      1.00      1.00     24646

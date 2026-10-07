@@ -1,0 +1,17 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Original Rows: 225745
+Original Columns: 79
+Duplicate Rows Removed: 2633
+Missing Values Handled: 4
+Infinite Values Handled: 64
+Final Rows: 223112
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+Label Distribution:
+  DDoS: 128016
+  BENIGN: 95096
+==============================================================

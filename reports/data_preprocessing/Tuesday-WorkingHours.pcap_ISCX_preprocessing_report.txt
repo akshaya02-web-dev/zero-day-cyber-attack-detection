@@ -1,0 +1,18 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Tuesday-WorkingHours.pcap_ISCX.csv
+Original Rows: 445909
+Original Columns: 79
+Duplicate Rows Removed: 24065
+Missing Values Handled: 201
+Infinite Values Handled: 327
+Final Rows: 421844
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+Label Distribution:
+  BENIGN: 412692
+  FTP-Patator: 5933
+  SSH-Patator: 3219
+==============================================================

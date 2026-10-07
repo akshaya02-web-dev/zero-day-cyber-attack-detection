@@ -1,0 +1,149 @@
+================================================================================
+ZERO-DAY ATTACK DETECTION REPORT: Thursday-Morning-WebAttacks
+================================================================================
+
+1. EXPERIMENT SETUP
+   Target Zero-Day Attack : Web Attack - SQL Injection
+   DBSCAN Parameters      : eps = 0.22, min_samples = 10
+   Total Clusters Found   : 125
+   Primary Clusters       : 5 (all 125 used for classification)
+   Training Set Size      : 114,994 samples
+   Held-Out Attack Set    : 21 samples
+
+2. CLUSTER PROFILES (Primary Clusters)
+   * Cluster 0: 13,167 core points | Dominant: BENIGN | Radius: 0.22 [PRIMARY]
+   * Cluster 1: 539 core points | Dominant: BENIGN | Radius: 0.22 [PRIMARY]
+   * Cluster 2: 1,877 core points | Dominant: BENIGN | Radius: 0.22 [PRIMARY]
+   * Cluster 3: 398 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 4: 12 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 5: 20 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 6: 223 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 7: 366 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 8: 1,071 core points | Dominant: BENIGN | Radius: 0.22 [PRIMARY]
+   * Cluster 9: 34 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 10: 1,042 core points | Dominant: BENIGN | Radius: 0.22 [PRIMARY]
+   * Cluster 11: 53 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 12: 211 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 13: 141 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 14: 14 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 15: 97 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 16: 437 core points | Dominant: Web Attack - Brute Force | Radius: 0.22
+   * Cluster 17: 24 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 18: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 19: 91 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 20: 485 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 21: 65 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 22: 517 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 23: 126 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 24: 433 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 25: 55 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 26: 23 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 27: 29 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 28: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 29: 30 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 30: 54 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 31: 27 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 32: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 33: 55 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 34: 233 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 35: 18 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 36: 17 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 37: 14 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 38: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 39: 292 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 40: 172 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 41: 28 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 42: 130 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 43: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 44: 70 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 45: 164 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 46: 88 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 47: 12 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 48: 23 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 49: 41 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 50: 26 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 51: 15 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 52: 14 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 53: 33 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 54: 21 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 55: 91 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 56: 135 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 57: 19 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 58: 14 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 59: 7 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 60: 21 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 61: 21 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 62: 23 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 63: 24 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 64: 35 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 65: 19 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 66: 13 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 67: 24 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 68: 36 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 69: 16 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 70: 12 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 71: 18 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 72: 21 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 73: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 74: 21 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 75: 6 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 76: 8 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 77: 56 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 78: 9 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 79: 19 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 80: 23 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 81: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 82: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 83: 24 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 84: 19 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 85: 18 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 86: 15 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 87: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 88: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 89: 11 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 90: 7 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 91: 13 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 92: 3 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 93: 11 core points | Dominant: Web Attack - Brute Force | Radius: 0.22
+   * Cluster 94: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 95: 6 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 96: 14 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 97: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 98: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 99: 16 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 100: 4 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 101: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 102: 39 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 103: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 104: 3 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 105: 2 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 106: 12 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 107: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 108: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 109: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 110: 2 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 111: 4 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 112: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 113: 5 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 114: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 115: 12 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 116: 3 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 117: 10 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 118: 1 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 119: 3 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 120: 1 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 121: 1 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 122: 2 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 123: 1 core points | Dominant: BENIGN | Radius: 0.22
+   * Cluster 124: 1 core points | Dominant: BENIGN | Radius: 0.22
+
+3. DETECTION METRICS
+   Known Inlier Rate            : 83.61%
+   Known False Alarm Rate       : 16.39%
+     - Benign False Alarm Rate   : 16.54%
+     - Known Attack False Alarm  : 5.64%
+   Zero-Day Tested              : 21
+   Zero-Day Detected            : 8 (38.10%)
+
+4. PER-CLASS BREAKDOWN
+   - Web Attack - SQL Injection: 8 / 21 (38.1%)

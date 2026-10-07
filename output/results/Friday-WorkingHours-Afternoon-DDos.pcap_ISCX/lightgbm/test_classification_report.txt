@@ -1,0 +1,10 @@
+=== LightGBM — TEST ===
+
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     14265
+        DDoS       1.00      1.00      1.00     19202
+
+    accuracy                           1.00     33467
+   macro avg       1.00      1.00      1.00     33467
+weighted avg       1.00      1.00      1.00     33467

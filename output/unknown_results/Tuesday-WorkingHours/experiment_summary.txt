@@ -1,0 +1,49 @@
+===========================================================================
+STEP 7: HELD-OUT EXPERIMENT SUMMARY: Tuesday-WorkingHours
+===========================================================================
+
+1. DATASET CONFIGURATION
+   Known Classes:    ['BENIGN', 'FTP-Patator']
+   Held-Out Classes: ['SSH-Patator']
+   Data Leakage:     NONE (PASSED - zero overlap across train/val/test and held-out)
+
+2. SAMPLE COUNTS
+   Known Train Samples:      293,037
+   Known Validation Samples: 62,794
+   Known Test Samples:       62,794
+   Held-Out Unknown Samples: 3,219
+
+3. SUPERVISED PERFORMANCE (KNOWN CLASSES ONLY)
+   Validation Results:
+     - Random Forest  : Acc=0.9999, Prec=0.9999, Rec=0.9999, F1=0.9999
+     - XGBoost        : Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000
+     - LightGBM       : Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000
+
+   Test Results:
+     - Random Forest  : Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000
+     - XGBoost        : Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000
+     - LightGBM       : Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000
+
+4. HELD-OUT UNKNOWN SAMPLE PREDICTIONS (OFFLINE ANALYSIS ONLY)
+   Total Held-Out Evaluated: 3,219
+
+   Model: Random Forest
+     - Forced into 'BENIGN': 3,219 (100.00%)
+     - Confidence: Mean=0.9994, Median=1.0000, Min=0.8818, Max=1.0000
+
+   Model: XGBoost
+     - Forced into 'BENIGN': 3,219 (100.00%)
+     - Confidence: Mean=1.0000, Median=1.0000, Min=0.9999, Max=1.0000
+
+   Model: LightGBM
+     - Forced into 'BENIGN': 3,219 (100.00%)
+     - Confidence: Mean=1.0000, Median=1.0000, Min=1.0000, Max=1.0000
+
+5. RESEARCH & METHODOLOGICAL NOTES
+   - True held-out labels were used ONLY for offline evaluation, never for prediction or training.
+   - Closed-set models (RF, XGBoost, LightGBM) force all novel inputs into known classes.
+   - Forced misclassification alone DOES NOT constitute unknown attack detection.
+   - Behavioural feature extraction and DBSCAN will be used in subsequent steps for
+     novelty detection.
+   - DBSCAN noise will NOT automatically be treated as an attack.
+   - Existing Step 5-6 baseline models in output/models/ remain 100% untouched.

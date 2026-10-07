@@ -1,0 +1,27 @@
+==============================================================
+MULTI-MODEL SUPERVISED TRAINING
+==============================================================
+Training source: output/splits/train
+Validation and test sources: not loaded or used
+Training samples: 1801980
+Number of features: 20
+Classes: ['BENIGN', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'PortScan', 'SSH-Patator', 'Web Attack � Brute Force', 'Web Attack � Sql Injection', 'Web Attack � XSS']
+
+Model name: random_forest
+Training samples: 1801980
+Number of features: 20
+Classes learned: ['BENIGN', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'PortScan', 'SSH-Patator', 'Web Attack � Brute Force', 'Web Attack � Sql Injection', 'Web Attack � XSS']
+Saved model: output\models\random_forest.pkl
+
+Model name: xgboost
+Training samples: 1801980
+Number of features: 20
+Classes learned: ['BENIGN', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'PortScan', 'SSH-Patator', 'Web Attack � Brute Force', 'Web Attack � Sql Injection', 'Web Attack � XSS']
+Saved model: output\models\xgboost.pkl
+
+Model name: lightgbm
+Training samples: 1801980
+Number of features: 20
+Classes learned: ['BENIGN', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'PortScan', 'SSH-Patator', 'Web Attack � Brute Force', 'Web Attack � Sql Injection', 'Web Attack � XSS']
+Saved model: output\models\lightgbm.pkl
+

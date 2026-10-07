@@ -1,0 +1,14 @@
+Dataset: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX
+Original Samples: 225745
+Original Features: 78
+Duplicates Removed: 2633
+Missing Values: 4
+Infinite Values: 64
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Fwd/Bwd Byte Ratio', 'Destination Port', 'Fwd Packet Length Mean', 'Fwd Packet Length Max', 'Avg Fwd Segment Size', 'Total Length of Fwd Packets', 'Init_Win_bytes_forward', 'act_data_pkt_fwd', 'Total Fwd Packets', 'Fwd IAT Total', 'Fwd Header Length', 'Fwd Header Length.1', 'Fwd IAT Std', 'Subflow Fwd Packets', 'Bwd Packet Length Min', 'Subflow Fwd Bytes', 'Bwd Packet Length Mean', 'Fwd IAT Max', 'Fwd IAT Mean', 'Total Packets']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Friday-WorkingHours-Afternoon-DDos.pcap_ISCX

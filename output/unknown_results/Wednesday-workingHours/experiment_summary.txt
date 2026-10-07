@@ -1,0 +1,58 @@
+===========================================================================
+STEP 7: HELD-OUT EXPERIMENT SUMMARY: Wednesday-workingHours
+===========================================================================
+
+1. DATASET CONFIGURATION
+   Known Classes:    ['BENIGN', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest']
+   Held-Out Classes: ['DoS slowloris', 'Heartbleed']
+   Data Leakage:     NONE (PASSED - zero overlap across train/val/test and held-out)
+
+2. SAMPLE COUNTS
+   Known Train Samples:      423,778
+   Known Validation Samples: 90,809
+   Known Test Samples:       90,811
+   Held-Out Unknown Samples: 5,396
+
+3. SUPERVISED PERFORMANCE (KNOWN CLASSES ONLY)
+   Validation Results:
+     - Random Forest  : Acc=0.9983, Prec=0.9983, Rec=0.9983, F1=0.9983
+     - XGBoost        : Acc=0.9982, Prec=0.9982, Rec=0.9982, F1=0.9982
+     - LightGBM       : Acc=0.9983, Prec=0.9983, Rec=0.9983, F1=0.9983
+
+   Test Results:
+     - Random Forest  : Acc=0.9984, Prec=0.9984, Rec=0.9984, F1=0.9984
+     - XGBoost        : Acc=0.9983, Prec=0.9983, Rec=0.9983, F1=0.9983
+     - LightGBM       : Acc=0.9984, Prec=0.9984, Rec=0.9984, F1=0.9984
+
+4. HELD-OUT UNKNOWN SAMPLE PREDICTIONS (OFFLINE ANALYSIS ONLY)
+   Total Held-Out Evaluated: 5,396
+
+   Model: Random Forest
+     - Forced into 'DoS Slowhttptest': 4,801 (88.97%)
+     - Forced into 'BENIGN': 591 (10.95%)
+     - Forced into 'DoS Hulk': 2 (0.04%)
+     - Forced into 'DoS GoldenEye': 2 (0.04%)
+     - Confidence: Mean=0.6303, Median=0.4972, Min=0.3920, Max=1.0000
+
+   Model: XGBoost
+     - Forced into 'DoS Slowhttptest': 3,746 (69.42%)
+     - Forced into 'DoS GoldenEye': 1,225 (22.70%)
+     - Forced into 'BENIGN': 357 (6.62%)
+     - Forced into 'DoS Hulk': 68 (1.26%)
+     - Confidence: Mean=0.9098, Median=0.8904, Min=0.4038, Max=1.0000
+
+   Model: LightGBM
+     - Forced into 'DoS Slowhttptest': 3,040 (56.34%)
+     - Forced into 'BENIGN': 1,192 (22.09%)
+     - Forced into 'DoS GoldenEye': 1,134 (21.02%)
+     - Forced into 'DoS Hulk': 30 (0.56%)
+     - Confidence: Mean=0.8914, Median=0.9166, Min=0.4141, Max=1.0000
+
+5. RESEARCH & METHODOLOGICAL NOTES
+   - True held-out labels were used ONLY for offline evaluation, never for prediction or training.
+   - Closed-set models (RF, XGBoost, LightGBM) force all novel inputs into known classes.
+   - Forced misclassification alone DOES NOT constitute unknown attack detection.
+   - Behavioural feature extraction and DBSCAN will be used in subsequent steps for
+     novelty detection.
+   - DBSCAN noise will NOT automatically be treated as an attack.
+   - Existing Step 5-6 baseline models in output/models/ remain 100% untouched.

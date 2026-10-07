@@ -1,0 +1,95 @@
+{
+  "total_samples": 100,
+  "total_features": 2,
+  "original_dataset_shape": [
+    100,
+    2
+  ],
+  "processed_dataset_shape": [
+    100,
+    2
+  ],
+  "duplicates_removed": 0,
+  "infinity_values_replaced": 0,
+  "missing_values_imputed": 0,
+  "rows_removed_due_to_missing_target": 0,
+  "missing_values_per_column": {
+    "feature_1": 0,
+    "feature_2": 0
+  },
+  "class_distribution": {
+    "full": {
+      "count": {
+        "NORMAL": 50,
+        "ATTACK": 50
+      },
+      "percentage": {
+        "NORMAL": 50.0,
+        "ATTACK": 50.0
+      },
+      "split_name": "FULL"
+    },
+    "train": {
+      "count": {
+        "NORMAL": 35,
+        "ATTACK": 35
+      },
+      "percentage": {
+        "NORMAL": 50.0,
+        "ATTACK": 50.0
+      },
+      "split_name": "TRAIN"
+    },
+    "val": {
+      "count": {
+        "NORMAL": 7,
+        "ATTACK": 8
+      },
+      "percentage": {
+        "NORMAL": 46.67,
+        "ATTACK": 53.33
+      },
+      "split_name": "VALIDATION"
+    },
+    "test": {
+      "count": {
+        "NORMAL": 8,
+        "ATTACK": 7
+      },
+      "percentage": {
+        "NORMAL": 53.33,
+        "ATTACK": 46.67
+      },
+      "split_name": "TEST"
+    }
+  },
+  "attack_distribution": {
+    "train": {
+      "DoS": 35,
+      "BENIGN": 35
+    },
+    "val": {
+      "DoS": 8,
+      "BENIGN": 7
+    },
+    "test": {
+      "BENIGN": 8,
+      "DoS": 7
+    },
+    "full": {
+      "BENIGN": 50,
+      "DoS": 50
+    }
+  },
+  "split_counts": {
+    "train": 70,
+    "val": 15,
+    "test": 15
+  },
+  "data_leakage": {
+    "train_vs_validation": "PASSED",
+    "train_vs_test": "PASSED",
+    "validation_vs_test": "PASSED"
+  },
+  "processed_dataset_valid": true
+}

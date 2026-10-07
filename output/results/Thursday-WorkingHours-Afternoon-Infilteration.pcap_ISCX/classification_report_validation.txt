@@ -1,0 +1,33 @@
+=== Random Forest ===
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     37940
+Infiltration       1.00      0.83      0.91         6
+
+    accuracy                           1.00     37946
+   macro avg       1.00      0.92      0.95     37946
+weighted avg       1.00      1.00      1.00     37946
+
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     37940
+Infiltration       1.00      0.83      0.91         6
+
+    accuracy                           1.00     37946
+   macro avg       1.00      0.92      0.95     37946
+weighted avg       1.00      1.00      1.00     37946
+
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     37940
+Infiltration       0.00      0.00      0.00         6
+
+    accuracy                           1.00     37946
+   macro avg       0.50      0.50      0.50     37946
+weighted avg       1.00      1.00      1.00     37946
+
+

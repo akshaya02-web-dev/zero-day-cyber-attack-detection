@@ -1,0 +1,14 @@
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX
+Original Samples: 170366
+Original Features: 78
+Duplicates Removed: 6066
+Missing Values: 20
+Infinite Values: 250
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Fwd IAT Min', 'Flow IAT Min', 'Init_Win_bytes_backward', 'Fwd/Bwd Packet Ratio', 'Fwd IAT Std', 'Flow Packets/s', 'Fwd Packets/s', 'Flow IAT Mean', 'Fwd IAT Max', 'Flow IAT Max', 'Flow IAT Std', 'Fwd IAT Total', 'Derived Packet Rate', 'Fwd IAT Mean', 'Flow Duration', 'Destination Port', 'Fwd Header Length', 'Average Packet Size', 'Init_Win_bytes_forward', 'Bwd Packets/s']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX

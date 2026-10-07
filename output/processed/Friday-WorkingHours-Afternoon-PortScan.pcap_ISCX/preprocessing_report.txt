@@ -1,0 +1,14 @@
+Dataset: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX
+Original Samples: 286467
+Original Features: 78
+Duplicates Removed: 72353
+Missing Values: 15
+Infinite Values: 727
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Total Length of Fwd Packets', 'Total Bytes', 'Fwd Packet Length Max', 'Average Packet Size', 'Packet Length Mean', 'Fwd Packet Length Mean', 'Subflow Fwd Bytes', 'Avg Fwd Segment Size', 'Flow Duration', 'Total Fwd Packets', 'PSH Flag Count', 'Bwd Packets/s', 'Flow IAT Max', 'Packet Length Variance', 'Max Packet Length', 'ACK Flag Count', 'Derived Byte Rate', 'Fwd IAT Total', 'Packet Length Std', 'Init_Win_bytes_forward']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX

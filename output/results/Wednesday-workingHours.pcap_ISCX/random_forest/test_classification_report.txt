@@ -1,0 +1,14 @@
+=== Random Forest — TEST ===
+
+                  precision    recall  f1-score   support
+
+          BENIGN       1.00      1.00      1.00     62556
+   DoS GoldenEye       0.99      0.99      0.99      1543
+        DoS Hulk       1.00      1.00      1.00     25928
+DoS Slowhttptest       1.00      0.99      1.00       784
+   DoS slowloris       1.00      1.00      1.00       808
+      Heartbleed       1.00      1.00      1.00         1
+
+        accuracy                           1.00     91620
+       macro avg       1.00      1.00      1.00     91620
+    weighted avg       1.00      1.00      1.00     91620

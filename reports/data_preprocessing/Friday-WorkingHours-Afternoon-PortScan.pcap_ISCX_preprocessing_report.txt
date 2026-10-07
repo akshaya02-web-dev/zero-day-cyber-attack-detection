@@ -1,0 +1,17 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Original Rows: 286467
+Original Columns: 79
+Duplicate Rows Removed: 72353
+Missing Values Handled: 15
+Infinite Values Handled: 727
+Final Rows: 214114
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+Label Distribution:
+  BENIGN: 123295
+  PortScan: 90819
+==============================================================

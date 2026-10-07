@@ -1,0 +1,397 @@
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+
+Rows:
+225745
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+2633
+
+Missing Values:
+Total: 4
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       4
+
+Infinite Values:
+Total: 64
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       30
+ Flow Packets/s                    34
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+DDoS                               128027
+BENIGN                             97718
+
+Unique Classes:
+2
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+
+Rows:
+286467
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+72353
+
+Missing Values:
+Total: 15
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       15
+
+Infinite Values:
+Total: 727
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       356
+ Flow Packets/s                    371
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+PortScan                           158930
+BENIGN                             127537
+
+Unique Classes:
+2
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Friday-WorkingHours-Morning.pcap_ISCX.csv
+
+Rows:
+191033
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+6888
+
+Missing Values:
+Total: 28
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       28
+
+Infinite Values:
+Total: 216
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       94
+ Flow Packets/s                    122
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+BENIGN                             189067
+Bot                                1966
+
+Unique Classes:
+2
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Monday-WorkingHours.pcap_ISCX.csv
+
+Rows:
+529918
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+26935
+
+Missing Values:
+Total: 64
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       64
+
+Infinite Values:
+Total: 810
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       373
+ Flow Packets/s                    437
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+BENIGN                             529918
+
+Unique Classes:
+1
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+
+Rows:
+288602
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+35630
+
+Missing Values:
+Total: 18
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       18
+
+Infinite Values:
+Total: 396
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       189
+ Flow Packets/s                    207
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+BENIGN                             288566
+Infiltration                       36
+
+Unique Classes:
+2
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+
+Rows:
+170366
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+6066
+
+Missing Values:
+Total: 20
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       20
+
+Infinite Values:
+Total: 250
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       115
+ Flow Packets/s                    135
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+BENIGN                             168186
+Web Attack � Brute Force           1507
+Web Attack � XSS                   652
+Web Attack � Sql Injection         21
+
+Unique Classes:
+4
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Tuesday-WorkingHours.pcap_ISCX.csv
+
+Rows:
+445909
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+24065
+
+Missing Values:
+Total: 201
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       201
+
+Infinite Values:
+Total: 327
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       63
+ Flow Packets/s                    264
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+BENIGN                             432074
+FTP-Patator                        7938
+SSH-Patator                        5897
+
+Unique Classes:
+3
+
+==============================================================
+
+==============================================================
+DATA INSPECTION
+==============================================================
+
+Dataset:
+Wednesday-workingHours.pcap_ISCX.csv
+
+Rows:
+692703
+
+Total Columns:
+79
+
+Target Column:
+Label
+
+ML Features:
+78
+
+Duplicate Rows:
+81909
+
+Missing Values:
+Total: 1008
+
+Feature                            Missing Count
+--------------------------------------------------
+Flow Bytes/s                       1008
+
+Infinite Values:
+Total: 1586
+
+Feature                            Infinite Count
+--------------------------------------------------
+Flow Bytes/s                       289
+ Flow Packets/s                    1297
+
+Class Distribution:
+Class                              Count
+--------------------------------------------------
+BENIGN                             440031
+DoS Hulk                           231073
+DoS GoldenEye                      10293
+DoS slowloris                      5796
+DoS Slowhttptest                   5499
+Heartbleed                         11
+
+Unique Classes:
+6
+
+==============================================================
+
+
+==============================================================
+STEP 1 STATUS
+==============================================================
+Data inspection completed.
+All datasets inspected successfully.
+==============================================================

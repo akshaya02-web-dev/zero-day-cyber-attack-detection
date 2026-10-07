@@ -1,0 +1,8 @@
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX
+Known Classes: ['BENIGN', 'Web Attack � XSS', 'Web Attack � Brute Force']
+Held-Out Classes: ['Web Attack � Sql Injection']
+Known Train Labels: ['BENIGN', 'Web Attack � Brute Force', 'Web Attack � XSS']
+Known Validation Labels: ['BENIGN', 'Web Attack � Brute Force', 'Web Attack � XSS']
+Known Test Labels: ['BENIGN', 'Web Attack � Brute Force', 'Web Attack � XSS']
+Held-Out Labels: ['Web Attack � Sql Injection']
+Overlap: NONE — DATA LEAKAGE CHECK: PASSED

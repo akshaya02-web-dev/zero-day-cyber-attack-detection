@@ -1,0 +1,44 @@
+======================================================================
+STEP 3: FEATURE SELECTION REPORT (NSL-KDD BENCHMARK)
+======================================================================
+
+1. METHOD
+   Algorithm:        Random Forest Importance Ranking
+   Estimators:       100
+   Random State:     42
+   Top N Selected:   20
+
+2. HELD-OUT CLASS ISOLATION
+   Held-out classes: ['warezclient', 'ipsweep']
+   Held-out rows:    4,489
+   Known train rows: 121,484
+   Pre-fit leakage:  PASSED (0 held-out samples seen during fitting)
+
+3. SELECTED FEATURES (ordered by importance)
+    1. src_bytes                                     0.111883
+    2. flag_SF                                       0.083727
+    3. diff_srv_rate                                 0.075502
+    4. same_srv_rate                                 0.068976
+    5. dst_host_srv_serror_rate                      0.063578
+    6. dst_host_same_srv_rate                        0.050439
+    7. dst_host_srv_count                            0.045340
+    8. dst_host_serror_rate                          0.043240
+    9. count                                         0.042569
+   10. flag_S0                                       0.042284
+   11. dst_host_diff_srv_rate                        0.031830
+   12. logged_in                                     0.030416
+   13. dst_bytes                                     0.025935
+   14. serror_rate                                   0.022970
+   15. dst_host_same_src_port_rate                   0.022323
+   16. srv_count                                     0.021977
+   17. service_ecr_i                                 0.020414
+   18. dst_host_rerror_rate                          0.016027
+   19. service_private                               0.014380
+   20. srv_serror_rate                               0.014206
+
+4. VALIDATION CHECKS
+   Column consistency:      PASSED
+   Zero NaN values:         PASSED
+   No held-out in known:    PASSED
+   Held-out contents:       PASSED
+   Row count integrity:     PASSED

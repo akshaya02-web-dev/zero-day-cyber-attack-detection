@@ -1,0 +1,14 @@
+==============================================================
+FEATURE EXTRACTION
+==============================================================
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Original Feature Count: 78
+Extracted Feature Count: 84
+Newly Generated Features:
+  - Total Packets
+  - Total Bytes
+  - Fwd/Bwd Packet Ratio
+  - Fwd/Bwd Byte Ratio
+  - Derived Packet Rate
+  - Derived Byte Rate
+==============================================================

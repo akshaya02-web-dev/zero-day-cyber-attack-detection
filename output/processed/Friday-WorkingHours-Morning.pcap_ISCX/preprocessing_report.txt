@@ -1,0 +1,14 @@
+Dataset: Friday-WorkingHours-Morning.pcap_ISCX
+Original Samples: 191033
+Original Features: 78
+Duplicates Removed: 6888
+Missing Values: 28
+Infinite Values: 216
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Init_Win_bytes_forward', 'Destination Port', 'Init_Win_bytes_backward', 'Bwd IAT Max', 'Bwd IAT Min', 'Bwd IAT Total', 'Flow Duration', 'Bwd Packets/s', 'Bwd IAT Mean', 'Fwd Packets/s', 'Flow Packets/s', 'Bwd IAT Std', 'Flow IAT Mean', 'Bwd Packet Length Std', 'Bwd Packet Length Mean', 'Derived Packet Rate', 'Fwd Packet Length Mean', 'Subflow Bwd Bytes', 'Flow Bytes/s', 'Avg Bwd Segment Size']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Friday-WorkingHours-Morning.pcap_ISCX

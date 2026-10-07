@@ -1,0 +1,53 @@
+===========================================================================
+STEP 7: HELD-OUT EXPERIMENT SUMMARY: Thursday-WorkingHours-Morning-WebAttacks
+===========================================================================
+
+1. DATASET CONFIGURATION
+   Known Classes:    ['BENIGN', 'Web Attack � Brute Force', 'Web Attack � XSS']
+   Held-Out Classes: ['Web Attack � Sql Injection']
+   Data Leakage:     NONE (PASSED - zero overlap across train/val/test and held-out)
+
+2. SAMPLE COUNTS
+   Known Train Samples:      114,994
+   Known Validation Samples: 24,642
+   Known Test Samples:       24,643
+   Held-Out Unknown Samples: 21
+
+3. SUPERVISED PERFORMANCE (KNOWN CLASSES ONLY)
+   Validation Results:
+     - Random Forest  : Acc=0.9953, Prec=0.9945, Rec=0.9953, F1=0.9947
+     - XGBoost        : Acc=0.9953, Prec=0.9948, Rec=0.9953, F1=0.9950
+     - LightGBM       : Acc=0.9951, Prec=0.9950, Rec=0.9951, F1=0.9950
+
+   Test Results:
+     - Random Forest  : Acc=0.9965, Prec=0.9962, Rec=0.9965, F1=0.9962
+     - XGBoost        : Acc=0.9964, Prec=0.9964, Rec=0.9964, F1=0.9964
+     - LightGBM       : Acc=0.9961, Prec=0.9961, Rec=0.9961, F1=0.9961
+
+4. HELD-OUT UNKNOWN SAMPLE PREDICTIONS (OFFLINE ANALYSIS ONLY)
+   Total Held-Out Evaluated: 21
+
+   Model: Random Forest
+     - Forced into 'BENIGN': 13 (61.90%)
+     - Forced into 'Web Attack � Brute Force': 8 (38.10%)
+     - Confidence: Mean=0.7805, Median=0.7913, Min=0.5895, Max=0.9440
+
+   Model: XGBoost
+     - Forced into 'Web Attack � Brute Force': 11 (52.38%)
+     - Forced into 'BENIGN': 10 (47.62%)
+     - Confidence: Mean=0.8203, Median=0.8555, Min=0.5003, Max=0.9960
+
+   Model: LightGBM
+     - Forced into 'BENIGN': 11 (52.38%)
+     - Forced into 'Web Attack � Brute Force': 9 (42.86%)
+     - Forced into 'Web Attack � XSS': 1 (4.76%)
+     - Confidence: Mean=0.9042, Median=0.9944, Min=0.4762, Max=0.9999
+
+5. RESEARCH & METHODOLOGICAL NOTES
+   - True held-out labels were used ONLY for offline evaluation, never for prediction or training.
+   - Closed-set models (RF, XGBoost, LightGBM) force all novel inputs into known classes.
+   - Forced misclassification alone DOES NOT constitute unknown attack detection.
+   - Behavioural feature extraction and DBSCAN will be used in subsequent steps for
+     novelty detection.
+   - DBSCAN noise will NOT automatically be treated as an attack.
+   - Existing Step 5-6 baseline models in output/models/ remain 100% untouched.

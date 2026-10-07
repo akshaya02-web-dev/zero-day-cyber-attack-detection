@@ -1,0 +1,255 @@
+BEFORE -> AFTER PREPROCESSING
+
+============================
+
+Dataset: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 225745 -> 223112 (difference: -2633)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 2633 -> 0
+Missing Values: 4 -> 0
+Infinite Values: 64 -> 0
+Rows Removed: 2633
+Final Class Distribution:
+  BENIGN: 95096
+  DDoS: 128016
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 4
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 34
+  Flow Bytes/s: 30
+
+Dataset: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 286467 -> 214114 (difference: -72353)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 72353 -> 0
+Missing Values: 15 -> 0
+Infinite Values: 727 -> 0
+Rows Removed: 72353
+Final Class Distribution:
+  BENIGN: 123295
+  PortScan: 90819
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 15
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 371
+  Flow Bytes/s: 356
+
+Dataset: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 191033 -> 184145 (difference: -6888)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 6888 -> 0
+Missing Values: 28 -> 0
+Infinite Values: 216 -> 0
+Rows Removed: 6888
+Final Class Distribution:
+  BENIGN: 182192
+  Bot: 1953
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 28
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 122
+  Flow Bytes/s: 94
+
+Dataset: Monday-WorkingHours.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 529918 -> 502983 (difference: -26935)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 26935 -> 0
+Missing Values: 64 -> 0
+Infinite Values: 810 -> 0
+Rows Removed: 26935
+Final Class Distribution:
+  BENIGN: 502983
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 64
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 437
+  Flow Bytes/s: 373
+
+Dataset: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 288602 -> 252972 (difference: -35630)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 35630 -> 0
+Missing Values: 18 -> 0
+Infinite Values: 396 -> 0
+Rows Removed: 35630
+Final Class Distribution:
+  BENIGN: 252936
+  Infiltration: 36
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 18
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 207
+  Flow Bytes/s: 189
+
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 170366 -> 164300 (difference: -6066)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 6066 -> 0
+Missing Values: 20 -> 0
+Infinite Values: 250 -> 0
+Rows Removed: 6066
+Final Class Distribution:
+  BENIGN: 162157
+  Web Attack � Brute Force: 1470
+  Web Attack � Sql Injection: 21
+  Web Attack � XSS: 652
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 20
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 135
+  Flow Bytes/s: 115
+
+Dataset: Tuesday-WorkingHours.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 445909 -> 421844 (difference: -24065)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 24065 -> 0
+Missing Values: 201 -> 0
+Infinite Values: 327 -> 0
+Rows Removed: 24065
+Final Class Distribution:
+  BENIGN: 412692
+  FTP-Patator: 5933
+  SSH-Patator: 3219
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 201
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 264
+  Flow Bytes/s: 63
+
+Dataset: Wednesday-workingHours.pcap_ISCX.csv
+Actions: duplicate rows removed; missing values handled; infinite values handled; original columns preserved.
+Rows: 692703 -> 610794 (difference: -81909)
+Total Columns: 79 -> 79 (difference: 0)
+ML Features: 78 -> 78 (difference: 0)
+Duplicates: 81909 -> 0
+Missing Values: 1008 -> 0
+Infinite Values: 1586 -> 0
+Rows Removed: 81909
+Final Class Distribution:
+  BENIGN: 417035
+  DoS GoldenEye: 10286
+  DoS Hulk: 172849
+  DoS Slowhttptest: 5228
+  DoS slowloris: 5385
+  Heartbleed: 11
+Features with missing values prior to preprocessing:
+  Flow Bytes/s: 1008
+Features with infinite values prior to preprocessing:
+   Flow Packets/s: 1297
+  Flow Bytes/s: 289
+
+BEFORE -> AFTER TABLE
+=====================
+Dataset | Metric | BEFORE | AFTER | DIFFERENCE
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | Rows | 225745 | 223112 | -2633
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | Duplicates | 2633 | 0 | -2633
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | Missing Values | 4 | 0 | -4
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | Infinite Values | 64 | 0 | -64
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | Rows | 286467 | 214114 | -72353
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | Duplicates | 72353 | 0 | -72353
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | Missing Values | 15 | 0 | -15
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | Infinite Values | 727 | 0 | -727
+Friday-WorkingHours-Morning.pcap_ISCX.csv | Rows | 191033 | 184145 | -6888
+Friday-WorkingHours-Morning.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Friday-WorkingHours-Morning.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Friday-WorkingHours-Morning.pcap_ISCX.csv | Duplicates | 6888 | 0 | -6888
+Friday-WorkingHours-Morning.pcap_ISCX.csv | Missing Values | 28 | 0 | -28
+Friday-WorkingHours-Morning.pcap_ISCX.csv | Infinite Values | 216 | 0 | -216
+Monday-WorkingHours.pcap_ISCX.csv | Rows | 529918 | 502983 | -26935
+Monday-WorkingHours.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Monday-WorkingHours.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Monday-WorkingHours.pcap_ISCX.csv | Duplicates | 26935 | 0 | -26935
+Monday-WorkingHours.pcap_ISCX.csv | Missing Values | 64 | 0 | -64
+Monday-WorkingHours.pcap_ISCX.csv | Infinite Values | 810 | 0 | -810
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | Rows | 288602 | 252972 | -35630
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | Duplicates | 35630 | 0 | -35630
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | Missing Values | 18 | 0 | -18
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | Infinite Values | 396 | 0 | -396
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Rows | 170366 | 164300 | -6066
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Duplicates | 6066 | 0 | -6066
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Missing Values | 20 | 0 | -20
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Infinite Values | 250 | 0 | -250
+Tuesday-WorkingHours.pcap_ISCX.csv | Rows | 445909 | 421844 | -24065
+Tuesday-WorkingHours.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Tuesday-WorkingHours.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Tuesday-WorkingHours.pcap_ISCX.csv | Duplicates | 24065 | 0 | -24065
+Tuesday-WorkingHours.pcap_ISCX.csv | Missing Values | 201 | 0 | -201
+Tuesday-WorkingHours.pcap_ISCX.csv | Infinite Values | 327 | 0 | -327
+Wednesday-workingHours.pcap_ISCX.csv | Rows | 692703 | 610794 | -81909
+Wednesday-workingHours.pcap_ISCX.csv | Total Columns | 79 | 79 | 0
+Wednesday-workingHours.pcap_ISCX.csv | ML Features | 78 | 78 | 0
+Wednesday-workingHours.pcap_ISCX.csv | Duplicates | 81909 | 0 | -81909
+Wednesday-workingHours.pcap_ISCX.csv | Missing Values | 1008 | 0 | -1008
+Wednesday-workingHours.pcap_ISCX.csv | Infinite Values | 1586 | 0 | -1586
+
+PREPROCESSING ACTIONS
+====================
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv: Duplicates removed=2633; Missing values handled=4; Infinite values handled=64; Rows removed=2633
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv: Duplicates removed=72353; Missing values handled=15; Infinite values handled=727; Rows removed=72353
+Friday-WorkingHours-Morning.pcap_ISCX.csv: Duplicates removed=6888; Missing values handled=28; Infinite values handled=216; Rows removed=6888
+Monday-WorkingHours.pcap_ISCX.csv: Duplicates removed=26935; Missing values handled=64; Infinite values handled=810; Rows removed=26935
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv: Duplicates removed=35630; Missing values handled=18; Infinite values handled=396; Rows removed=35630
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv: Duplicates removed=6066; Missing values handled=20; Infinite values handled=250; Rows removed=6066
+Tuesday-WorkingHours.pcap_ISCX.csv: Duplicates removed=24065; Missing values handled=201; Infinite values handled=327; Rows removed=24065
+Wednesday-workingHours.pcap_ISCX.csv: Duplicates removed=81909; Missing values handled=1008; Infinite values handled=1586; Rows removed=81909
+
+ATTACK CLASS DISTRIBUTION
+=========================
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | BENIGN: 97718 -> 95096 (difference: -2622)
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv | DDoS: 128027 -> 128016 (difference: -11)
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | BENIGN: 127537 -> 123295 (difference: -4242)
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv | PortScan: 158930 -> 90819 (difference: -68111)
+Friday-WorkingHours-Morning.pcap_ISCX.csv | BENIGN: 189067 -> 182192 (difference: -6875)
+Friday-WorkingHours-Morning.pcap_ISCX.csv | Bot: 1966 -> 1953 (difference: -13)
+Monday-WorkingHours.pcap_ISCX.csv | BENIGN: 529918 -> 502983 (difference: -26935)
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | BENIGN: 288566 -> 252936 (difference: -35630)
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv | Infiltration: 36 -> 36 (difference: 0)
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | BENIGN: 168186 -> 162157 (difference: -6029)
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Web Attack � Brute Force: 1507 -> 1470 (difference: -37)
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Web Attack � Sql Injection: 21 -> 21 (difference: 0)
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv | Web Attack � XSS: 652 -> 652 (difference: 0)
+Tuesday-WorkingHours.pcap_ISCX.csv | BENIGN: 432074 -> 412692 (difference: -19382)
+Tuesday-WorkingHours.pcap_ISCX.csv | FTP-Patator: 7938 -> 5933 (difference: -2005)
+Tuesday-WorkingHours.pcap_ISCX.csv | SSH-Patator: 5897 -> 3219 (difference: -2678)
+Wednesday-workingHours.pcap_ISCX.csv | BENIGN: 440031 -> 417035 (difference: -22996)
+Wednesday-workingHours.pcap_ISCX.csv | DoS GoldenEye: 10293 -> 10286 (difference: -7)
+Wednesday-workingHours.pcap_ISCX.csv | DoS Hulk: 231073 -> 172849 (difference: -58224)
+Wednesday-workingHours.pcap_ISCX.csv | DoS Slowhttptest: 5499 -> 5228 (difference: -271)
+Wednesday-workingHours.pcap_ISCX.csv | DoS slowloris: 5796 -> 5385 (difference: -411)
+Wednesday-workingHours.pcap_ISCX.csv | Heartbleed: 11 -> 11 (difference: 0)
+
+FINAL STATUS
+
+============
+
+STEP 1 ✓
+
+STEP 2 ✓
+
+STEP 3 ✓
+
+Reports saved to: output\reports
+
+STEP 3 COMPLETED

@@ -1,0 +1,8 @@
+Dataset: Wednesday-workingHours.pcap_ISCX
+Known Classes: ['BENIGN', 'DoS Hulk', 'DoS GoldenEye', 'DoS Slowhttptest']
+Held-Out Classes: ['DoS slowloris', 'Heartbleed']
+Known Train Labels: ['BENIGN', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest']
+Known Validation Labels: ['BENIGN', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest']
+Known Test Labels: ['BENIGN', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest']
+Held-Out Labels: ['DoS slowloris', 'Heartbleed']
+Overlap: NONE — DATA LEAKAGE CHECK: PASSED

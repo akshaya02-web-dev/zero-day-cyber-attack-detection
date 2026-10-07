@@ -1,0 +1,39 @@
+=== Random Forest ===
+                            precision    recall  f1-score   support
+
+                    BENIGN       1.00      1.00      1.00     24324
+  Web Attack � Brute Force       0.71      0.83      0.77       220
+Web Attack � Sql Injection       1.00      1.00      1.00         3
+          Web Attack � XSS       0.36      0.20      0.26        98
+
+                  accuracy                           1.00     24645
+                 macro avg       0.77      0.76      0.76     24645
+              weighted avg       0.99      1.00      0.99     24645
+
+
+=== XGBoost ===
+                            precision    recall  f1-score   support
+
+                    BENIGN       1.00      1.00      1.00     24324
+  Web Attack � Brute Force       0.71      0.78      0.74       220
+Web Attack � Sql Injection       1.00      0.67      0.80         3
+          Web Attack � XSS       0.34      0.26      0.29        98
+
+                  accuracy                           1.00     24645
+                 macro avg       0.76      0.67      0.71     24645
+              weighted avg       0.99      1.00      0.99     24645
+
+
+=== LightGBM ===
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.99      1.00      0.99     24324
+  Web Attack � Brute Force       1.00      0.00      0.01       220
+Web Attack � Sql Injection       0.00      0.00      0.00         3
+          Web Attack � XSS       0.00      0.00      0.00        98
+
+                  accuracy                           0.99     24645
+                 macro avg       0.50      0.25      0.25     24645
+              weighted avg       0.98      0.99      0.98     24645
+
+

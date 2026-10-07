@@ -1,0 +1,21 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Wednesday-workingHours.pcap_ISCX.csv
+Original Rows: 692703
+Original Columns: 79
+Duplicate Rows Removed: 81909
+Missing Values Handled: 1008
+Infinite Values Handled: 1586
+Final Rows: 610794
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+Label Distribution:
+  BENIGN: 417035
+  DoS Hulk: 172849
+  DoS GoldenEye: 10286
+  DoS slowloris: 5385
+  DoS Slowhttptest: 5228
+  Heartbleed: 11
+==============================================================

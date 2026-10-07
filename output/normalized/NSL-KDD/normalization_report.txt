@@ -1,0 +1,60 @@
+======================================================================
+STEP 4: NORMALIZATION REPORT (NSL-KDD BENCHMARK)
+======================================================================
+
+1. METHOD
+   Algorithm:      sklearn.preprocessing.StandardScaler
+   Fit source:     known-class training split ONLY (70% of KDDTrain+ known)
+   Fit rows:       85,038
+   No refit on:    validation / test / KDDTest+ / held-out
+
+2. SPLITS (from KDDTrain+ known rows)
+   Train split:      85,038 rows  (70%)
+   Validation split: 18,223 rows  (15%)
+   Known test split: 18,223 rows  (15%)
+
+3. ADDITIONAL EVALUATION SETS
+   Official KDDTest+: 22,544 rows  (OOD evaluation)
+   Held-out unknown:  4,489 rows  (warezclient=890, ipsweep=3599)
+
+4. SCALER PARAMETERS
+   Mean  range:  [0.025130, 44981.274971]
+   Scale range:  [0.156520, 6388885.281777]
+   Saved at:     output/models/NSL-KDD\standard_scaler.pkl
+
+5. FEATURES (ordered)
+    1. src_bytes
+    2. flag_SF
+    3. diff_srv_rate
+    4. same_srv_rate
+    5. dst_host_srv_serror_rate
+    6. dst_host_same_srv_rate
+    7. dst_host_srv_count
+    8. dst_host_serror_rate
+    9. count
+   10. flag_S0
+   11. dst_host_diff_srv_rate
+   12. logged_in
+   13. dst_bytes
+   14. serror_rate
+   15. dst_host_same_src_port_rate
+   16. srv_count
+   17. service_ecr_i
+   18. dst_host_rerror_rate
+   19. service_private
+   20. srv_serror_rate
+
+6. VALIDATION CHECKS
+   Non-finite values (all splits):  PASSED
+   Feature-order consistency:       PASSED
+   Held-out leakage into splits:    PASSED
+   Train mean ≈ 0 after scaling:    PASSED
+   Partition index overlap:         PASSED
+
+7. OUTPUT PATHS
+   train       : output/normalized/NSL-KDD/splits\train\train.csv
+   validation  : output/normalized/NSL-KDD/splits\validation\validation.csv
+   test        : output/normalized/NSL-KDD/splits\test\test.csv
+   KDDTest+    : output/normalized/NSL-KDD\KDDTest+_normalized.csv
+   held-out    : output/normalized/NSL-KDD\held_out_normalized.csv
+======================================================================

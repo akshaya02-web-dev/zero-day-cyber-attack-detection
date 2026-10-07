@@ -1,0 +1,14 @@
+=== LightGBM — VALIDATION ===
+
+                  precision    recall  f1-score   support
+
+          BENIGN       0.69      1.00      0.82     62555
+   DoS GoldenEye       0.00      0.00      0.00      1543
+        DoS Hulk       0.94      0.03      0.06     25927
+DoS Slowhttptest       0.00      0.00      0.00       784
+   DoS slowloris       0.00      0.00      0.00       808
+      Heartbleed       0.00      0.00      0.00         2
+
+        accuracy                           0.69     91619
+       macro avg       0.27      0.17      0.15     91619
+    weighted avg       0.74      0.69      0.57     91619

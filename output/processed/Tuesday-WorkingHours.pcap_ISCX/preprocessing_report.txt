@@ -1,0 +1,14 @@
+Dataset: Tuesday-WorkingHours.pcap_ISCX
+Original Samples: 445909
+Original Features: 78
+Duplicates Removed: 24065
+Missing Values: 201
+Infinite Values: 327
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Destination Port', 'Max Packet Length', 'Fwd Packet Length Max', 'Packet Length Std', 'Total Bytes', 'Total Length of Fwd Packets', 'Average Packet Size', 'Total Length of Bwd Packets', 'Flow IAT Max', 'Subflow Fwd Packets', 'Subflow Bwd Packets', 'Bwd Header Length', 'Packet Length Mean', 'Avg Bwd Segment Size', 'Subflow Fwd Bytes', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Fwd/Bwd Packet Ratio', 'act_data_pkt_fwd', 'Total Backward Packets']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Tuesday-WorkingHours.pcap_ISCX

@@ -1,0 +1,17 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Original Rows: 288602
+Original Columns: 79
+Duplicate Rows Removed: 35630
+Missing Values Handled: 18
+Infinite Values Handled: 396
+Final Rows: 252972
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+Label Distribution:
+  BENIGN: 252936
+  Infiltration: 36
+==============================================================

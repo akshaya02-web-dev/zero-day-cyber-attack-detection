@@ -1,0 +1,14 @@
+Dataset: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX
+Original Samples: 288602
+Original Features: 78
+Duplicates Removed: 35630
+Missing Values: 18
+Infinite Values: 396
+Features Before Extraction: 78
+Features After Extraction: 84
+Features Before Selection: 84
+Selected Features: 20
+Selected Feature Names: ['Total Length of Fwd Packets', 'Fwd/Bwd Byte Ratio', 'Subflow Fwd Bytes', 'Avg Bwd Segment Size', 'Destination Port', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Fwd IAT Total', 'Active Max', 'Fwd IAT Min', 'Flow Packets/s', 'Fwd Packet Length Mean', 'Total Bytes', 'Bwd IAT Max', 'Flow Bytes/s', 'act_data_pkt_fwd', 'Total Packets', 'Init_Win_bytes_forward', 'Total Fwd Packets', 'Total Backward Packets']
+Normalization: StandardScaler fitted on this dataset's training split
+Status: COMPLETED
+Output: output\processed\Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX

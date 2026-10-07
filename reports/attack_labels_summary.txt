@@ -1,0 +1,49 @@
+STEP 1 ATTACK LABEL SUMMARY
+
+Raw data folder: data\raw
+
+Dataset: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Labels:
+- DDoS: 128027
+- BENIGN: 97718
+
+Dataset: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Labels:
+- PortScan: 158930
+- BENIGN: 127537
+
+Dataset: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Labels:
+- BENIGN: 189067
+- Bot: 1966
+
+Dataset: Monday-WorkingHours.pcap_ISCX.csv
+Labels:
+- BENIGN: 529918
+
+Dataset: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Labels:
+- BENIGN: 288566
+- Infiltration: 36
+
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Labels:
+- BENIGN: 168186
+- Web Attack � Brute Force: 1507
+- Web Attack � XSS: 652
+- Web Attack � Sql Injection: 21
+
+Dataset: Tuesday-WorkingHours.pcap_ISCX.csv
+Labels:
+- BENIGN: 432074
+- FTP-Patator: 7938
+- SSH-Patator: 5897
+
+Dataset: Wednesday-workingHours.pcap_ISCX.csv
+Labels:
+- BENIGN: 440031
+- DoS Hulk: 231073
+- DoS GoldenEye: 10293
+- DoS slowloris: 5796
+- DoS Slowhttptest: 5499
+- Heartbleed: 11

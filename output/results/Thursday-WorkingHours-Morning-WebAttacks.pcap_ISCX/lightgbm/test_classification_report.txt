@@ -1,0 +1,12 @@
+=== LightGBM — TEST ===
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.99      1.00      0.99     24324
+  Web Attack � Brute Force       0.00      0.00      0.00       221
+Web Attack � Sql Injection       0.00      0.00      0.00         3
+          Web Attack � XSS       0.00      0.00      0.00        98
+
+                  accuracy                           0.99     24646
+                 macro avg       0.25      0.25      0.25     24646
+              weighted avg       0.97      0.99      0.98     24646

@@ -1,0 +1,140 @@
+================================================================================
+ZERO-DAY ATTACK DETECTION REPORT: Wednesday-workingHours
+================================================================================
+
+1. EXPERIMENT SETUP
+   Target Zero-Day Attack : DoS slowloris + Heartbleed
+   DBSCAN Parameters      : eps = 0.32, min_samples = 15
+   Total Clusters Found   : 115
+   Primary Clusters       : 5 (all 115 used for classification)
+   Training Set Size      : 423,778 samples
+   Held-Out Attack Set    : 5,396 samples
+
+2. CLUSTER PROFILES (Primary Clusters)
+   * Cluster 0: 15,562 core points | Dominant: BENIGN | Radius: 0.32 [PRIMARY]
+   * Cluster 1: 272 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 2: 22 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 3: 110 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 4: 2,499 core points | Dominant: BENIGN | Radius: 0.32 [PRIMARY]
+   * Cluster 5: 687 core points | Dominant: DoS Hulk | Radius: 0.32 [PRIMARY]
+   * Cluster 6: 175 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 7: 232 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 8: 156 core points | Dominant: DoS Slowhttptest | Radius: 0.32
+   * Cluster 9: 35 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 10: 127 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 11: 442 core points | Dominant: DoS Hulk | Radius: 0.32 [PRIMARY]
+   * Cluster 12: 290 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 13: 494 core points | Dominant: DoS Hulk | Radius: 0.32 [PRIMARY]
+   * Cluster 14: 392 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 15: 174 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 16: 27 core points | Dominant: DoS Slowhttptest | Radius: 0.32
+   * Cluster 17: 31 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 18: 69 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 19: 72 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 20: 51 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 21: 102 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 22: 239 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 23: 57 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 24: 229 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 25: 38 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 26: 28 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 27: 181 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 28: 34 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 29: 421 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 30: 41 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 31: 27 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 32: 92 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 33: 20 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 34: 391 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 35: 40 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 36: 103 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 37: 28 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 38: 20 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 39: 32 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 40: 25 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 41: 9 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 42: 20 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 43: 17 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 44: 25 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 45: 11 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 46: 40 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 47: 42 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 48: 14 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 49: 147 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 50: 137 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 51: 58 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 52: 24 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 53: 26 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 54: 81 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 55: 16 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 56: 18 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 57: 15 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 58: 43 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 59: 55 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 60: 21 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 61: 21 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 62: 22 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 63: 42 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 64: 64 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 65: 22 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 66: 23 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 67: 118 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 68: 38 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 69: 20 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 70: 31 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 71: 38 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 72: 41 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 73: 21 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 74: 44 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 75: 13 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 76: 20 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 77: 48 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 78: 72 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 79: 19 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 80: 31 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 81: 20 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 82: 10 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 83: 15 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 84: 20 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 85: 18 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 86: 35 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 87: 21 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 88: 39 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 89: 16 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 90: 15 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 91: 21 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 92: 21 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 93: 31 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 94: 15 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 95: 17 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 96: 10 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 97: 19 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 98: 18 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 99: 16 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 100: 25 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 101: 8 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 102: 19 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 103: 17 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 104: 38 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 105: 6 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 106: 20 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 107: 17 core points | Dominant: DoS GoldenEye | Radius: 0.32
+   * Cluster 108: 18 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 109: 7 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 110: 5 core points | Dominant: BENIGN | Radius: 0.32
+   * Cluster 111: 19 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 112: 5 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 113: 15 core points | Dominant: DoS Hulk | Radius: 0.32
+   * Cluster 114: 1 core points | Dominant: BENIGN | Radius: 0.32
+
+3. DETECTION METRICS
+   Known Inlier Rate            : 89.42%
+   Known False Alarm Rate       : 10.58%
+     - Benign False Alarm Rate   : 7.91%
+     - Known Attack False Alarm  : 16.50%
+   Zero-Day Tested              : 5,396
+   Zero-Day Detected            : 3,222 (59.71%)
+
+4. PER-CLASS BREAKDOWN
+   - DoS slowloris: 3211 / 5385 (59.63%)
+   - Heartbleed: 11 / 11 (100.0%)

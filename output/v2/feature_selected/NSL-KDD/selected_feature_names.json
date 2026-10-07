@@ -1,0 +1,30 @@
+{
+  "version": "v2",
+  "selected_features": [
+    "src_bytes",
+    "flag_SF",
+    "diff_srv_rate",
+    "same_srv_rate",
+    "dst_host_srv_serror_rate",
+    "dst_host_srv_count",
+    "dst_host_serror_rate",
+    "count",
+    "flag_S0",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_same_src_port_rate",
+    "dst_bytes",
+    "logged_in",
+    "serror_rate",
+    "srv_count",
+    "dst_host_rerror_rate",
+    "service_ecr_i",
+    "protocol_type_icmp",
+    "srv_serror_rate"
+  ],
+  "train_rows": 85038,
+  "val_rows": 18223,
+  "test_rows": 18223,
+  "kddtest_rows": 22544,
+  "held_out_rows": 4489
+}

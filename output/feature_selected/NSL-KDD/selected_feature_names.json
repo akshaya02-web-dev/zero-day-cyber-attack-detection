@@ -1,0 +1,522 @@
+{
+  "dataset": "NSL-KDD",
+  "method": "Random Forest Importance (100 trees, random_state=42)",
+  "total_input_features": 122,
+  "selected_feature_count": 20,
+  "held_out_classes": [
+    "warezclient",
+    "ipsweep"
+  ],
+  "selected_features": [
+    "src_bytes",
+    "flag_SF",
+    "diff_srv_rate",
+    "same_srv_rate",
+    "dst_host_srv_serror_rate",
+    "dst_host_same_srv_rate",
+    "dst_host_srv_count",
+    "dst_host_serror_rate",
+    "count",
+    "flag_S0",
+    "dst_host_diff_srv_rate",
+    "logged_in",
+    "dst_bytes",
+    "serror_rate",
+    "dst_host_same_src_port_rate",
+    "srv_count",
+    "service_ecr_i",
+    "dst_host_rerror_rate",
+    "service_private",
+    "srv_serror_rate"
+  ],
+  "full_importance_ranking": [
+    {
+      "Feature": "src_bytes",
+      "Importance": 0.11188281537420895
+    },
+    {
+      "Feature": "flag_SF",
+      "Importance": 0.08372741886684672
+    },
+    {
+      "Feature": "diff_srv_rate",
+      "Importance": 0.07550215218901331
+    },
+    {
+      "Feature": "same_srv_rate",
+      "Importance": 0.06897644338070195
+    },
+    {
+      "Feature": "dst_host_srv_serror_rate",
+      "Importance": 0.06357757724481788
+    },
+    {
+      "Feature": "dst_host_same_srv_rate",
+      "Importance": 0.05043921718559917
+    },
+    {
+      "Feature": "dst_host_srv_count",
+      "Importance": 0.045339905363523204
+    },
+    {
+      "Feature": "dst_host_serror_rate",
+      "Importance": 0.04323950319399109
+    },
+    {
+      "Feature": "count",
+      "Importance": 0.042569284610771384
+    },
+    {
+      "Feature": "flag_S0",
+      "Importance": 0.04228424908314934
+    },
+    {
+      "Feature": "dst_host_diff_srv_rate",
+      "Importance": 0.03183016995889035
+    },
+    {
+      "Feature": "logged_in",
+      "Importance": 0.0304162912085272
+    },
+    {
+      "Feature": "dst_bytes",
+      "Importance": 0.02593476300264459
+    },
+    {
+      "Feature": "serror_rate",
+      "Importance": 0.022969566302913653
+    },
+    {
+      "Feature": "dst_host_same_src_port_rate",
+      "Importance": 0.02232288484313929
+    },
+    {
+      "Feature": "srv_count",
+      "Importance": 0.021976843803504398
+    },
+    {
+      "Feature": "service_ecr_i",
+      "Importance": 0.020414343982947475
+    },
+    {
+      "Feature": "dst_host_rerror_rate",
+      "Importance": 0.016026810088888146
+    },
+    {
+      "Feature": "service_private",
+      "Importance": 0.014380244639796447
+    },
+    {
+      "Feature": "srv_serror_rate",
+      "Importance": 0.01420602464337182
+    },
+    {
+      "Feature": "protocol_type_icmp",
+      "Importance": 0.013590337469210824
+    },
+    {
+      "Feature": "dst_host_srv_diff_host_rate",
+      "Importance": 0.012686587469675166
+    },
+    {
+      "Feature": "rerror_rate",
+      "Importance": 0.012167841886882573
+    },
+    {
+      "Feature": "dst_host_count",
+      "Importance": 0.012000053523899299
+    },
+    {
+      "Feature": "dst_host_srv_rerror_rate",
+      "Importance": 0.01105303774764303
+    },
+    {
+      "Feature": "service_http",
+      "Importance": 0.010686994375242842
+    },
+    {
+      "Feature": "protocol_type_tcp",
+      "Importance": 0.010187880716346865
+    },
+    {
+      "Feature": "wrong_fragment",
+      "Importance": 0.009774771645307387
+    },
+    {
+      "Feature": "srv_rerror_rate",
+      "Importance": 0.0071180131618453464
+    },
+    {
+      "Feature": "flag_RSTR",
+      "Importance": 0.00711353652222612
+    },
+    {
+      "Feature": "protocol_type_udp",
+      "Importance": 0.006635871166546223
+    },
+    {
+      "Feature": "num_compromised",
+      "Importance": 0.006209070014675853
+    },
+    {
+      "Feature": "srv_diff_host_rate",
+      "Importance": 0.005920167735427577
+    },
+    {
+      "Feature": "flag_REJ",
+      "Importance": 0.005471598337938665
+    },
+    {
+      "Feature": "hot",
+      "Importance": 0.004216557917556602
+    },
+    {
+      "Feature": "duration",
+      "Importance": 0.0035688918246874588
+    },
+    {
+      "Feature": "service_eco_i",
+      "Importance": 0.00332157269517318
+    },
+    {
+      "Feature": "service_other",
+      "Importance": 0.0028246589961966532
+    },
+    {
+      "Feature": "service_domain_u",
+      "Importance": 0.001287012895691433
+    },
+    {
+      "Feature": "flag_SH",
+      "Importance": 0.0011112492101455777
+    },
+    {
+      "Feature": "service_ftp_data",
+      "Importance": 0.0010322576352076822
+    },
+    {
+      "Feature": "service_telnet",
+      "Importance": 0.00047509164954892476
+    },
+    {
+      "Feature": "service_urp_i",
+      "Importance": 0.0003700675252060185
+    },
+    {
+      "Feature": "flag_RSTO",
+      "Importance": 0.0003570869799781776
+    },
+    {
+      "Feature": "num_failed_logins",
+      "Importance": 0.00027601000511574527
+    },
+    {
+      "Feature": "service_smtp",
+      "Importance": 0.0002564288931835261
+    },
+    {
+      "Feature": "flag_RSTOS0",
+      "Importance": 0.00024173002420195013
+    },
+    {
+      "Feature": "flag_S1",
+      "Importance": 0.00024060599062318956
+    },
+    {
+      "Feature": "service_finger",
+      "Importance": 0.00017232901667068578
+    },
+    {
+      "Feature": "service_IRC",
+      "Importance": 0.00011564289694076969
+    },
+    {
+      "Feature": "flag_OTH",
+      "Importance": 0.0001105463826971458
+    },
+    {
+      "Feature": "root_shell",
+      "Importance": 0.00010669111906546999
+    },
+    {
+      "Feature": "num_file_creations",
+      "Importance": 0.00010337050680116188
+    },
+    {
+      "Feature": "num_root",
+      "Importance": 9.25837715282546e-05
+    },
+    {
+      "Feature": "is_guest_login",
+      "Importance": 8.169314729285152e-05
+    },
+    {
+      "Feature": "land",
+      "Importance": 8.158235704735221e-05
+    },
+    {
+      "Feature": "service_uucp_path",
+      "Importance": 7.78095287286133e-05
+    },
+    {
+      "Feature": "service_ftp",
+      "Importance": 7.179444642712027e-05
+    },
+    {
+      "Feature": "service_imap4",
+      "Importance": 6.635774539976211e-05
+    },
+    {
+      "Feature": "num_access_files",
+      "Importance": 5.44176419859572e-05
+    },
+    {
+      "Feature": "service_auth",
+      "Importance": 5.221894793993292e-05
+    },
+    {
+      "Feature": "num_shells",
+      "Importance": 5.103672330349346e-05
+    },
+    {
+      "Feature": "service_X11",
+      "Importance": 4.983364467106855e-05
+    },
+    {
+      "Feature": "service_tim_i",
+      "Importance": 3.406934078894675e-05
+    },
+    {
+      "Feature": "service_login",
+      "Importance": 3.019358009966187e-05
+    },
+    {
+      "Feature": "service_efs",
+      "Importance": 3.0060170738502557e-05
+    },
+    {
+      "Feature": "service_time",
+      "Importance": 2.533504322288617e-05
+    },
+    {
+      "Feature": "service_pm_dump",
+      "Importance": 2.427553038861492e-05
+    },
+    {
+      "Feature": "service_gopher",
+      "Importance": 2.3521441576857827e-05
+    },
+    {
+      "Feature": "service_ntp_u",
+      "Importance": 2.2858885125692467e-05
+    },
+    {
+      "Feature": "service_nntp",
+      "Importance": 2.099256536945071e-05
+    },
+    {
+      "Feature": "urgent",
+      "Importance": 1.6599693770922707e-05
+    },
+    {
+      "Feature": "service_discard",
+      "Importance": 1.6185093940172002e-05
+    },
+    {
+      "Feature": "service_uucp",
+      "Importance": 1.6153021016690588e-05
+    },
+    {
+      "Feature": "service_nnsp",
+      "Importance": 1.5590108989723183e-05
+    },
+    {
+      "Feature": "flag_S2",
+      "Importance": 1.4732280473710687e-05
+    },
+    {
+      "Feature": "service_domain",
+      "Importance": 1.41580288436968e-05
+    },
+    {
+      "Feature": "su_attempted",
+      "Importance": 1.1921113114454825e-05
+    },
+    {
+      "Feature": "service_tftp_u",
+      "Importance": 1.1352087169446724e-05
+    },
+    {
+      "Feature": "service_netbios_ssn",
+      "Importance": 9.78919811556245e-06
+    },
+    {
+      "Feature": "service_pop_2",
+      "Importance": 9.650332737967173e-06
+    },
+    {
+      "Feature": "service_http_443",
+      "Importance": 8.81487975056951e-06
+    },
+    {
+      "Feature": "service_pop_3",
+      "Importance": 8.255039201371288e-06
+    },
+    {
+      "Feature": "service_bgp",
+      "Importance": 8.20236716485293e-06
+    },
+    {
+      "Feature": "service_red_i",
+      "Importance": 8.18606801726192e-06
+    },
+    {
+      "Feature": "service_echo",
+      "Importance": 7.949131544765294e-06
+    },
+    {
+      "Feature": "service_systat",
+      "Importance": 7.4999937261046624e-06
+    },
+    {
+      "Feature": "service_daytime",
+      "Importance": 7.08543673351601e-06
+    },
+    {
+      "Feature": "flag_S3",
+      "Importance": 7.0143826373862645e-06
+    },
+    {
+      "Feature": "service_Z39_50",
+      "Importance": 6.915578349351999e-06
+    },
+    {
+      "Feature": "service_netbios_dgm",
+      "Importance": 5.451616807215597e-06
+    },
+    {
+      "Feature": "service_sunrpc",
+      "Importance": 5.180166522329686e-06
+    },
+    {
+      "Feature": "service_name",
+      "Importance": 5.0979868625533464e-06
+    },
+    {
+      "Feature": "service_iso_tsap",
+      "Importance": 4.976060512283642e-06
+    },
+    {
+      "Feature": "service_ldap",
+      "Importance": 4.974272931500978e-06
+    },
+    {
+      "Feature": "service_supdup",
+      "Importance": 4.861947851835452e-06
+    },
+    {
+      "Feature": "service_ctf",
+      "Importance": 4.831801444843145e-06
+    },
+    {
+      "Feature": "service_urh_i",
+      "Importance": 4.410028364348929e-06
+    },
+    {
+      "Feature": "service_netstat",
+      "Importance": 4.217111815341429e-06
+    },
+    {
+      "Feature": "service_courier",
+      "Importance": 4.165019571177155e-06
+    },
+    {
+      "Feature": "service_whois",
+      "Importance": 3.6400301585902606e-06
+    },
+    {
+      "Feature": "service_shell",
+      "Importance": 3.320594601714846e-06
+    },
+    {
+      "Feature": "service_sql_net",
+      "Importance": 3.2477971906332997e-06
+    },
+    {
+      "Feature": "service_netbios_ns",
+      "Importance": 3.137597268749795e-06
+    },
+    {
+      "Feature": "service_link",
+      "Importance": 2.918275140092241e-06
+    },
+    {
+      "Feature": "service_mtp",
+      "Importance": 2.8938156458912994e-06
+    },
+    {
+      "Feature": "service_vmnet",
+      "Importance": 2.758812977044617e-06
+    },
+    {
+      "Feature": "service_ssh",
+      "Importance": 2.41084454643412e-06
+    },
+    {
+      "Feature": "service_printer",
+      "Importance": 2.2152959852095864e-06
+    },
+    {
+      "Feature": "service_hostnames",
+      "Importance": 2.204167047810458e-06
+    },
+    {
+      "Feature": "service_klogin",
+      "Importance": 1.6395671358821717e-06
+    },
+    {
+      "Feature": "service_remote_job",
+      "Importance": 1.4133428784348356e-06
+    },
+    {
+      "Feature": "service_csnet_ns",
+      "Importance": 1.2304450073565609e-06
+    },
+    {
+      "Feature": "service_rje",
+      "Importance": 7.591156456735863e-07
+    },
+    {
+      "Feature": "service_http_8001",
+      "Importance": 5.66711710171485e-07
+    },
+    {
+      "Feature": "service_exec",
+      "Importance": 3.583489209012911e-07
+    },
+    {
+      "Feature": "service_harvest",
+      "Importance": 2.8359480321503844e-07
+    },
+    {
+      "Feature": "service_kshell",
+      "Importance": 7.43625936555605e-08
+    },
+    {
+      "Feature": "service_aol",
+      "Importance": 1.0288344042726723e-11
+    },
+    {
+      "Feature": "is_host_login",
+      "Importance": 5.635287338470699e-12
+    },
+    {
+      "Feature": "service_http_2784",
+      "Importance": 3.9761787304049557e-13
+    },
+    {
+      "Feature": "num_outbound_cmds",
+      "Importance": 0.0
+    }
+  ]
+}

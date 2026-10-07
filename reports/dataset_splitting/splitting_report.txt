@@ -1,0 +1,193 @@
+==============================================================
+DATASET SPLITTING
+==============================================================
+Input: normalized datasets from Step 5
+Scaler reused for validation: models\standard_scaler.joblib
+No scaler or other transformation was fitted during splitting.
+Split ratios: train=70%, validation=15%, test=15%
+Random state: 42
+
+Dataset: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+  Train samples: 156178
+  Train features: 20
+  Train output: output\splits\train\Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+  Train class distribution:
+    DDoS: 89611 (57.38%)
+    BENIGN: 66567 (42.62%)
+  Validation samples: 33467
+  Validation features: 20
+  Validation output: output\splits\validation\Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+  Validation class distribution:
+    DDoS: 19203 (57.38%)
+    BENIGN: 14264 (42.62%)
+  Test samples: 33467
+  Test features: 20
+  Test output: output\splits\test\Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+  Test class distribution:
+    DDoS: 19202 (57.38%)
+    BENIGN: 14265 (42.62%)
+
+Dataset: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+  Train samples: 149879
+  Train features: 20
+  Train output: output\splits\train\Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 86306 (57.58%)
+    PortScan: 63573 (42.42%)
+  Validation samples: 32117
+  Validation features: 20
+  Validation output: output\splits\validation\Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 18494 (57.58%)
+    PortScan: 13623 (42.42%)
+  Test samples: 32118
+  Test features: 20
+  Test output: output\splits\test\Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 18495 (57.58%)
+    PortScan: 13623 (42.42%)
+
+Dataset: Friday-WorkingHours-Morning.pcap_ISCX.csv
+  Train samples: 128901
+  Train features: 20
+  Train output: output\splits\train\Friday-WorkingHours-Morning.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 127534 (98.94%)
+    Bot: 1367 (1.06%)
+  Validation samples: 27622
+  Validation features: 20
+  Validation output: output\splits\validation\Friday-WorkingHours-Morning.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 27329 (98.94%)
+    Bot: 293 (1.06%)
+  Test samples: 27622
+  Test features: 20
+  Test output: output\splits\test\Friday-WorkingHours-Morning.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 27329 (98.94%)
+    Bot: 293 (1.06%)
+
+Dataset: Monday-WorkingHours.pcap_ISCX.csv
+  Train samples: 352088
+  Train features: 20
+  Train output: output\splits\train\Monday-WorkingHours.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 352088 (100.0%)
+  Validation samples: 75447
+  Validation features: 20
+  Validation output: output\splits\validation\Monday-WorkingHours.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 75447 (100.0%)
+  Test samples: 75448
+  Test features: 20
+  Test output: output\splits\test\Monday-WorkingHours.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 75448 (100.0%)
+
+Dataset: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+  Train samples: 177080
+  Train features: 20
+  Train output: output\splits\train\Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 177055 (99.99%)
+    Infiltration: 25 (0.01%)
+  Validation samples: 37946
+  Validation features: 20
+  Validation output: output\splits\validation\Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 37940 (99.98%)
+    Infiltration: 6 (0.02%)
+  Test samples: 37946
+  Test features: 20
+  Test output: output\splits\test\Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 37941 (99.99%)
+    Infiltration: 5 (0.01%)
+
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+  Train samples: 115009
+  Train features: 20
+  Train output: output\splits\train\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 113509 (98.7%)
+    Web Attack � Brute Force: 1029 (0.89%)
+    Web Attack � XSS: 456 (0.4%)
+    Web Attack � Sql Injection: 15 (0.01%)
+  Validation samples: 24645
+  Validation features: 20
+  Validation output: output\splits\validation\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 24324 (98.7%)
+    Web Attack � Brute Force: 220 (0.89%)
+    Web Attack � XSS: 98 (0.4%)
+    Web Attack � Sql Injection: 3 (0.01%)
+  Test samples: 24646
+  Test features: 20
+  Test output: output\splits\test\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 24324 (98.69%)
+    Web Attack � Brute Force: 221 (0.9%)
+    Web Attack � XSS: 98 (0.4%)
+    Web Attack � Sql Injection: 3 (0.01%)
+
+Dataset: Tuesday-WorkingHours.pcap_ISCX.csv
+  Train samples: 295290
+  Train features: 20
+  Train output: output\splits\train\Tuesday-WorkingHours.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 288884 (97.83%)
+    FTP-Patator: 4153 (1.41%)
+    SSH-Patator: 2253 (0.76%)
+  Validation samples: 63277
+  Validation features: 20
+  Validation output: output\splits\validation\Tuesday-WorkingHours.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 61904 (97.83%)
+    FTP-Patator: 890 (1.41%)
+    SSH-Patator: 483 (0.76%)
+  Test samples: 63277
+  Test features: 20
+  Test output: output\splits\test\Tuesday-WorkingHours.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 61904 (97.83%)
+    FTP-Patator: 890 (1.41%)
+    SSH-Patator: 483 (0.76%)
+
+Dataset: Wednesday-workingHours.pcap_ISCX.csv
+  Train samples: 427555
+  Train features: 20
+  Train output: output\splits\train\Wednesday-workingHours.pcap_ISCX.csv
+  Train class distribution:
+    BENIGN: 291924 (68.28%)
+    DoS Hulk: 120994 (28.3%)
+    DoS GoldenEye: 7200 (1.68%)
+    DoS slowloris: 3769 (0.88%)
+    DoS Slowhttptest: 3660 (0.86%)
+    Heartbleed: 8 (0.0%)
+  Validation samples: 91619
+  Validation features: 20
+  Validation output: output\splits\validation\Wednesday-workingHours.pcap_ISCX.csv
+  Validation class distribution:
+    BENIGN: 62555 (68.28%)
+    DoS Hulk: 25927 (28.3%)
+    DoS GoldenEye: 1543 (1.68%)
+    DoS slowloris: 808 (0.88%)
+    DoS Slowhttptest: 784 (0.86%)
+    Heartbleed: 2 (0.0%)
+  Test samples: 91620
+  Test features: 20
+  Test output: output\splits\test\Wednesday-workingHours.pcap_ISCX.csv
+  Test class distribution:
+    BENIGN: 62556 (68.28%)
+    DoS Hulk: 25928 (28.3%)
+    DoS GoldenEye: 1543 (1.68%)
+    DoS slowloris: 808 (0.88%)
+    DoS Slowhttptest: 784 (0.86%)
+    Heartbleed: 1 (0.0%)
+
+TOTAL SAMPLES
+Train: 1801980
+Validation: 386140
+Test: 386144
+No overlap detected between partitions within any dataset.
+==============================================================

@@ -1,0 +1,31 @@
+======================================================================
+STEP 2: FEATURE EXTRACTION REPORT (NSL-KDD BENCHMARK)
+======================================================================
+
+1. FEATURE SPACE SUMMARY
+   Original Input Features:             41
+   Numerical Features (Unchanged):      38
+   Raw Categorical Features:            3 (['protocol_type', 'service', 'flag'])
+   Encoded Categorical Features (OHE):  84
+   Total Extracted Features:            122
+   Target Label Column:                 Label (Excluded from model inputs)
+   Difficulty Level:                    Excluded from model inputs
+
+2. CATEGORICAL ENCODER DETAILS
+   Encoder:             sklearn.preprocessing.OneHotEncoder
+   Fitting Strategy:    Fitted on KDDTrain+ ONLY (Zero Test Data Leakage)
+   Unknown Category:    handle_unknown='ignore' (Safe for real-time inference)
+   Categories in 'protocol_type': 3
+   Categories in 'service': 70
+   Categories in 'flag': 11
+
+3. DATASET DIMENSIONS
+   KDDTrain+_extracted.csv: 125,973 rows x 123 columns
+   KDDTest+_extracted.csv:  22,544 rows x 123 columns
+
+4. VALIDATION CHECKS
+   - Data Leakage Check:       PASSED (Encoder fitted strictly on Train)
+   - Missing / Null Values:    PASSED (Zero NaNs)
+   - Deterministic Ordering:   PASSED (Identical columns across Train & Test)
+   - Label Preservation:       PASSED (All 23 train & 38 test attack labels intact)
+   - Inference Robustness:     PASSED (Handles novel categories gracefully)

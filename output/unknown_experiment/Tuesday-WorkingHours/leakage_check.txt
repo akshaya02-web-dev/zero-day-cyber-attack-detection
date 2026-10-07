@@ -1,0 +1,8 @@
+Dataset: Tuesday-WorkingHours.pcap_ISCX
+Known Classes: ['BENIGN', 'FTP-Patator']
+Held-Out Classes: ['SSH-Patator']
+Known Train Labels: ['BENIGN', 'FTP-Patator']
+Known Validation Labels: ['BENIGN', 'FTP-Patator']
+Known Test Labels: ['BENIGN', 'FTP-Patator']
+Held-Out Labels: ['SSH-Patator']
+Overlap: NONE — DATA LEAKAGE CHECK: PASSED

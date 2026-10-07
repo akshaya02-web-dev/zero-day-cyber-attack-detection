@@ -1,0 +1,20 @@
+========================================================================================
+                      EXECUTIVE ZERO-DAY DETECTION SUMMARY
+========================================================================================
+Dataset                      | Held-Out Attack              |  Tested | Detected | Detection Rate
+----------------------------------------------------------------------------------------
+Tuesday-WorkingHours         | SSH-Patator                  |   3,219 |    2,949 |         91.61%
+Wednesday-workingHours       | DoS slowloris                |   5,385 |    3,211 |         59.63%
+Wednesday-workingHours       | Heartbleed                   |      11 |       11 |        100.00%
+Thursday-Morning-WebAttacks  | Web Attack - SQL Injection   |      21 |        8 |         38.10%
+----------------------------------------------------------------------------------------
+TOTAL ACROSS ALL DATASETS                                   |   8,636 |    6,179 |         71.55%
+========================================================================================
+
+FOLDER ORGANIZATION GUIDE:
+--------------------------------------------------------------------------------
+1_CLUSTERS_OVERVIEW.csv        : The 5 primary baseline clusters discovered
+2_DETECTED_UNKNOWN_ATTACKS.csv : The exact attack samples flagged as unknown
+3_ALL_PREDICTIONS_LOG.csv      : Full evaluation log with anomaly scores
+4_DETECTION_REPORT.txt         : Detailed technical report
+ALL_DETECTED_UNKNOWN_ATTACKS.csv : Master combined file of all detected zero-day attacks

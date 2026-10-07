@@ -1,0 +1,32 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: KDDTrain+.txt
+Original Rows: 125973
+Original Columns: 43
+Duplicate Rows Removed: 0
+Missing Values Handled: 0
+Infinite Values Handled: 0
+Final Rows: 125973
+Final Columns: 42
+ML Features: 41
+Label Column: Label
+Difficulty Column: difficulty_level (Separated from ML features)
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: KDDTest+.txt
+Original Rows: 22544
+Original Columns: 43
+Duplicate Rows Removed: 0
+Missing Values Handled: 0
+Infinite Values Handled: 0
+Final Rows: 22544
+Final Columns: 42
+ML Features: 41
+Label Column: Label
+Difficulty Column: difficulty_level (Separated from ML features)
+==============================================================
+

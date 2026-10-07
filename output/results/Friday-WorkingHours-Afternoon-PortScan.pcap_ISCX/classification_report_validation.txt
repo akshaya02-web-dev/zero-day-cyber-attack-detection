@@ -1,0 +1,33 @@
+=== Random Forest ===
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     18494
+    PortScan       1.00      1.00      1.00     13623
+
+    accuracy                           1.00     32117
+   macro avg       1.00      1.00      1.00     32117
+weighted avg       1.00      1.00      1.00     32117
+
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     18494
+    PortScan       1.00      1.00      1.00     13623
+
+    accuracy                           1.00     32117
+   macro avg       1.00      1.00      1.00     32117
+weighted avg       1.00      1.00      1.00     32117
+
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     18494
+    PortScan       1.00      1.00      1.00     13623
+
+    accuracy                           1.00     32117
+   macro avg       1.00      1.00      1.00     32117
+weighted avg       1.00      1.00      1.00     32117
+
+

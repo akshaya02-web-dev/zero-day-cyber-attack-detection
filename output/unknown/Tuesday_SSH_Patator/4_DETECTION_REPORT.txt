@@ -1,0 +1,63 @@
+================================================================================
+ZERO-DAY ATTACK DETECTION REPORT: Tuesday-WorkingHours
+================================================================================
+
+1. EXPERIMENT SETUP
+   Target Zero-Day Attack : SSH-Patator (Brute Force)
+   DBSCAN Parameters      : eps = 0.5, min_samples = 10
+   Total Clusters Found   : 39
+   Primary Clusters       : 5 (all 39 used for classification)
+   Training Set Size      : 293,037 samples
+   Held-Out Attack Set    : 3,219 samples
+
+2. CLUSTER PROFILES (Primary Clusters)
+   * Cluster 0: 25,015 core points | Dominant: BENIGN | Radius: 0.5 [PRIMARY]
+   * Cluster 1: 255 core points | Dominant: BENIGN | Radius: 0.5 [PRIMARY]
+   * Cluster 2: 260 core points | Dominant: FTP-Patator | Radius: 0.5 [PRIMARY]
+   * Cluster 3: 35 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 4: 17 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 5: 136 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 6: 138 core points | Dominant: BENIGN | Radius: 0.5 [PRIMARY]
+   * Cluster 7: 276 core points | Dominant: BENIGN | Radius: 0.5 [PRIMARY]
+   * Cluster 8: 18 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 9: 15 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 10: 14 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 11: 70 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 12: 16 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 13: 61 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 14: 11 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 15: 11 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 16: 54 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 17: 4 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 18: 10 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 19: 3 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 20: 70 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 21: 11 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 22: 2 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 23: 10 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 24: 18 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 25: 21 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 26: 1 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 27: 2 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 28: 4 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 29: 14 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 30: 12 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 31: 5 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 32: 8 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 33: 5 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 34: 5 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 35: 2 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 36: 3 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 37: 1 core points | Dominant: BENIGN | Radius: 0.5
+   * Cluster 38: 1 core points | Dominant: BENIGN | Radius: 0.5
+
+3. DETECTION METRICS
+   Known Inlier Rate            : 90.42%
+   Known False Alarm Rate       : 9.58%
+     - Benign False Alarm Rate   : 9.72%
+     - Known Attack False Alarm  : 0.00%
+   Zero-Day Tested              : 3,219
+   Zero-Day Detected            : 2,949 (91.61%)
+
+4. PER-CLASS BREAKDOWN
+   - SSH-Patator: 2949 / 3219 (91.61%)

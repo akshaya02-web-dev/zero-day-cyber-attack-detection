@@ -1,0 +1,125 @@
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Original Rows: 225745
+Original Columns: 79
+Duplicate Rows Removed: 2633
+Missing Values Handled: 4
+Infinite Values Handled: 64
+Final Rows: 223112
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Original Rows: 286467
+Original Columns: 79
+Duplicate Rows Removed: 72353
+Missing Values Handled: 15
+Infinite Values Handled: 727
+Final Rows: 214114
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Original Rows: 191033
+Original Columns: 79
+Duplicate Rows Removed: 6888
+Missing Values Handled: 28
+Infinite Values Handled: 216
+Final Rows: 184145
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Monday-WorkingHours.pcap_ISCX.csv
+Original Rows: 529918
+Original Columns: 79
+Duplicate Rows Removed: 26935
+Missing Values Handled: 64
+Infinite Values Handled: 810
+Final Rows: 502983
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Original Rows: 288602
+Original Columns: 79
+Duplicate Rows Removed: 35630
+Missing Values Handled: 18
+Infinite Values Handled: 396
+Final Rows: 252972
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Original Rows: 170366
+Original Columns: 79
+Duplicate Rows Removed: 6066
+Missing Values Handled: 20
+Infinite Values Handled: 250
+Final Rows: 164300
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Tuesday-WorkingHours.pcap_ISCX.csv
+Original Rows: 445909
+Original Columns: 79
+Duplicate Rows Removed: 24065
+Missing Values Handled: 201
+Infinite Values Handled: 327
+Final Rows: 421844
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+PREPROCESSING
+==============================================================
+Dataset: Wednesday-workingHours.pcap_ISCX.csv
+Original Rows: 692703
+Original Columns: 79
+Duplicate Rows Removed: 81909
+Missing Values Handled: 1008
+Infinite Values Handled: 1586
+Final Rows: 610794
+Final Columns: 79
+ML Features: 78
+Label Column: Label
+==============================================================
+
+==============================================================
+STEP 2 STATUS
+==============================================================
+Data preprocessing completed. Cleaned datasets saved.
+==============================================================

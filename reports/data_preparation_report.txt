@@ -1,0 +1,46 @@
+==================================================
+CYBERSECURITY DATA PREPARATION REPORT
+==================================================
+
+DATASET OVERVIEW
+Total Samples: 100
+Total Features: 2
+Original Dataset Shape: [100, 2]
+Processed Dataset Shape: [100, 2]
+
+DATA CLEANING
+Duplicates Removed: 0
+Infinity Values Replaced: 0
+Missing Values Imputed: 0
+Rows Removed Due To Missing Target: 0
+
+MISSING VALUES
+feature_1: 0
+feature_2: 0
+
+BINARY CLASS DISTRIBUTION
+NORMAL: 50
+ATTACK: 50
+
+ATTACK CATEGORY DISTRIBUTION
+BENIGN: 50
+DoS: 50
+
+DATASET SPLIT
+Training Samples: 70
+Validation Samples: 15
+Test Samples: 15
+
+CLASS DISTRIBUTION BY SPLIT
+TRAIN - NORMAL: 35 (50.0%) | ATTACK: 35 (50.0%)
+VAL - NORMAL: 7 (46.67%) | ATTACK: 8 (53.33%)
+TEST - NORMAL: 8 (53.33%) | ATTACK: 7 (46.67%)
+
+DATA LEAKAGE VALIDATION
+Training vs Validation: PASSED
+Training vs Test: PASSED
+Validation vs Test: PASSED
+
+FINAL STATUS
+DATASET IS READY FOR MACHINE LEARNING TRAINING
+==================================================
